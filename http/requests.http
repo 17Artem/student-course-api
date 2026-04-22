@@ -1,0 +1,10 @@
+@host = http://localhost:4000
+
+### Get all students
+GET {{host}}/students
+
+### Get all courses
+GET {{host}}/courses
+
+### Get all enrollments
+GET {{host}}/enrollments
